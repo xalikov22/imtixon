@@ -12,7 +12,9 @@ import FitnessCenterIcon from '@mui/icons-material/FitnessCenter';
 import DeveloperModeIcon from '@mui/icons-material/DeveloperMode';
 
 
-export const logo = 'https://cdn.pixabay.com/photo/2016/07/03/18/36/youtube-1495277_960_720.png';
+ export const logo = 'https://cdn.pixabay.com/photo/2016/07/03/18/36/youtube-1495277_960_720.png';
+ 
+
 
 export const categories = [
     { name: 'New', icon: < HomeIcon className = 'PNG' / > , },
@@ -23,11 +25,11 @@ export const categories = [
     { name: 'Gaming', icon: < SportsEsportsIcon className = 'PNG' / > , },
     { name: 'Live', icon: < LiveTvIcon className = 'PNG' / > , },
     { name: 'Sport', icon: < FitnessCenterIcon className = 'PNG' / > , },
-    { name: 'Fashion', icon: < CheckroomIcon className = 'PNG' / > , },
+ { name: 'Fashion', icon: < CheckroomIcon className = 'PNG' / > , },
     { name: 'Beauty', icon: < FaceRetouchingNaturalIcon className = 'PNG' / > , },
     { name: 'Comedy', icon: < TheaterComedyIcon className = 'PNG' / > , },
     { name: 'Gym', icon: < FitnessCenterIcon className = 'PNG' / > , },
-    { name: 'Crypto', icon: < DeveloperModeIcon className = 'PNG' / > , },
+    { name: 'Crypto', icon: < DeveloperModeIcon className = 'PNG' / > , }, 
 ];
 export const demoThumbnailUrl = 'https://i.ytimg.com/an_webp/E4lb2gkyXr8/mqdefault_6s.webp?du=3000&sqp=CPOOyJkG&rs=AOn4CLD_h6BhDNyYSWI9qDxlenq2JMYe3A';
 export const demoChannelUrl = 'https://www.youtube.com/c/cs50';

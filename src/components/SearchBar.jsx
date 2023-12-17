@@ -20,12 +20,13 @@ const SearchBar = () => {
   
   return (
 
-    
-    <Paper component="form"
+
+     
+<Paper component="form"
       onSubmit={handleSubmit}
       sx={{
         borderRadius: 20,
-        border: '1px solid #e3e3e3',
+        border: '2px solid #e3e3e3',
         pl: 2,
         boxShadow: 'none',
  
@@ -46,12 +47,13 @@ const SearchBar = () => {
           
         }}
       >
-        <SearchIcon />
+      <SearchIcon />
       </IconButton>
-      
-
     </Paper>
-  
+
+
+
+
 
   )
 

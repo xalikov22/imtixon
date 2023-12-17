@@ -26,20 +26,25 @@ a {
 }
 
 .category-btn:hover {
-    background-color: #FC1503 !important;
-    color: white !important;
+    background-color: #FF0000!important;
+    color: rgb(33, 32, 32) !important;
 }
 
 .PNG {
-    color: black;
+    color:  #898989;
+    
 }
+.PNG:hover{
+    color: #000;
+} 
 
 .category-btn:hover span {
     color: white !important;
 }
 
 .category-btn span {
-    color: black;
+    color:  #898989;
+
 }
 
 .react-player {
@@ -50,7 +55,8 @@ a {
 .search-bar {
     border: none;
     outline: none;
-    width: 350px;
+    width: 500px;
+    
 }
 
 .GPN {
@@ -95,4 +101,7 @@ a {
     .search-bar {
         width: 200px;
     }
+}
+.box{
+    display: flex;
 }
